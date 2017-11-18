@@ -48,7 +48,7 @@
         window.onload = function(){
         //getBoundingClientRect gives x,y,top,left,bottom,right,width,height
         //width and height includes the border(including scroll bar width)
-        //these params are relative to the container/parent
+        //Props other than width/height are relative to the top-left of the viewport.
         let div1 = document.getElementById('div1').getBoundingClientRect();
         let div2 = document.getElementById('div2').getBoundingClientRect();
         let output = document.getElementById('input');
